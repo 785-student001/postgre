@@ -1,0 +1,13 @@
+-- select * from employee;
+--select emp_name,birthday,sal from employee;
+--select emp_name,birthday,sal*12 from employee;
+--select emp_name,birthday,sal*12 AS ”Nû from employee;
+--select emp_name as ]‹Æˆõ,birthday as ¶”NŒ“ú,sal as ‹‹—^,sal*12 AS ”Nû from employee;
+--select emp_name as ]‹Æˆõ,birthday as ¶”NŒ“ú,sal as ‹‹—^, cast(sal*12 as int) as ”Nû from employee;
+--select emp_name as ]‹Æˆõ,birthday as ¶”NŒ“ú,sal as ‹‹—^, (sal*12 )::int as ”Nû from employee;
+--select (cust_id)::double precision as ID from customer; 
+--select '’S“–Ò '||emp_name||' ‚Ì’a¶“ú‚Í '||birthday||' ‚Å‚·B' as ’a¶“ú from employee;
+--select emp_name, to_char(birthday,'Day,Month DD,YYYY') from employee; 
+--select emp_name,to_char(sal,'9G999G999D99') from employee;
+--select * from employee;
+select emp_name,sal,comm,sal+comm from employee;
